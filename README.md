@@ -115,7 +115,7 @@ CORS_ORIGIN=*
 ---
 ## 🚀 Live URL
 
-👉 [Click here to visit my portfolio](https://school-mangement-system-cxep.onrender.com)
+👉 [Click here to api test](https://school-mangement-system-cxep.onrender.com)
 
 ---
 
