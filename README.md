@@ -108,7 +108,7 @@ npm run dev
 
 ```bash
 PORT=5000
-DATABASE_URL=mysql://user:password@host:port/database     //railway mysql database url
+DATABASE_URL=mysql://user:password@host:port/database     # railway mysql database url
 CORS_ORIGIN=*
 ```
 
