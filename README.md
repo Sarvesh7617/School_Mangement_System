@@ -5,8 +5,6 @@ A Node.js + Express.js + MySQL REST API to manage schools and fetch them sorted 
 ---
 
 
-
-
 ## ⚙️ Features
 
 - Add School API
@@ -71,6 +69,44 @@ longitude REAL NOT NULL
 
 ```
 
+
+---
+
+## Setup (Local)
+
+To run this project locally:  
+
+1️. Clone the repository: 
+
+```bash
+git clone https://github.com/Sarvesh7617/School_Mangement_System
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd school-management-api
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Run the project
+
+```bash
+npm run dev
+```
+
+## Environment Variables
+
+```bash
+PORT=5000
+DATABASE_URL=mysql://user:password@host:port/database     //railway mysql database url
+CORS_ORIGIN=*
+```
 
 
 ---
@@ -152,41 +188,3 @@ GET /listSchools?latitude=26.85&longitude=80.94
 - Backend: Render
 - Database: Railway MySQL
 - Version Control: GitHub
-
-
-
-## Setup (Local)
-
-To run this project locally:  
-
-1️. Clone the repository: 
-
-```bash
-git clone https://github.com/Sarvesh7617/School_Mangement_System
-```
-
-2. Navigate to the project directory:
-
-```bash
-cd school-management-api
-```
-
-3. Install dependencies
-
-```bash
-npm install
-```
-
-4. Run the project
-
-```bash
-npm run dev
-```
-
-## Environment Variables
-
-```bash
-PORT=5000
-DATABASE_URL=mysql://user:password@host:port/database     //railway mysql database url
-CORS_ORIGIN=*
-```
