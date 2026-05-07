@@ -34,26 +34,26 @@ school-management-api/
 │
 ├── src/
 │   ├── controllers/
-│   │   └── school.controller.js      // Handles API logic (addSchool, listSchools)
+│   │   └── school.controller.js      # Handles API logic (addSchool, listSchools)
 │   │
 │   ├── routes/
-│   │   └── school.route.js          // Defines API endpoints (/addSchool, /listSchools)
+│   │   └── school.route.js          # Defines API endpoints (/addSchool, /listSchools)
 │   │
 │   ├── db/
-│   │   └── index.js                 // MySQL connection setup (Railway DB)
+│   │   └── index.js                 # MySQL connection setup (Railway DB)
 │   │
 │   ├── utils/
-│   │   ├── ApiError.js              // Custom error handling class
-│   │   ├── ApiResponse.js           // Standard API response format
-│   │   └── asyncHandler.js         // Wrapper for async error handling
+│   │   ├── ApiError.js              # Custom error handling class
+│   │   ├── ApiResponse.js           # Standard API response format
+│   │   └── asyncHandler.js         # Wrapper for async error handling
 │   │
-│   ├── app.js                      // Express app setup (middlewares, routes)
-│   ├── constant.js                 // DB name or constants
-│   └── index.js                    // Server entry point (listen port + DB connect)
+│   ├── app.js                      # Express app setup (middlewares, routes)
+│   ├── constant.js                 # DB name or constants
+│   └── index.js                    # Server entry point (listen port + DB connect)
 │
-├── .env                            // Environment variables (DB_URL, PORT, etc.)
-├── package.json                    // Dependencies & scripts
-└── README.md                       // Project documentation
+├── .env                            # Environment variables (DB_URL, PORT, etc.)
+├── package.json                    # Dependencies & scripts
+└── README.md                       # Project documentation
 ```
 
 
