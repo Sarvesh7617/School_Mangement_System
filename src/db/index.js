@@ -2,12 +2,7 @@ import mysql from "mysql2/promise";
 import {DB_NAME} from "../constant.js";
 
 
-export const pool = mysql.createPool({
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
-  database: DB_NAME,
-});
+export const pool = mysql.createPool(process.env.DATABASE_URL);
 
 
 
