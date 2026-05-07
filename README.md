@@ -80,7 +80,7 @@ longitude REAL NOT NULL
 ###  Add School
 
 ```bash
-POST /api/v1/school/addSchool
+POST /addSchool
 ```
 
 
