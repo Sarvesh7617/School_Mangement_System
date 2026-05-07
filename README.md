@@ -112,6 +112,10 @@ DATABASE_URL=mysql://user:password@host:port/database     //railway mysql databa
 CORS_ORIGIN=*
 ```
 
+---
+## 🚀 Live URL
+
+👉 [Click here to visit my portfolio](https://school-mangement-system-cxep.onrender.com)
 
 ---
 
