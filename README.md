@@ -124,7 +124,7 @@ CORS_ORIGIN=*
 ###  Add School
 
 ```bash
-POST /addSchool
+POST /api/v1/school/addSchool
 ```
 
 
@@ -157,7 +157,7 @@ POST /addSchool
 ### List Schools (Sorted by Distance)
 
 ```bash
-GET /listSchools?latitude=26.85&longitude=80.94
+GET /api/v1/school/listSchools?latitude=26.85&longitude=80.94
 ```
 
 
